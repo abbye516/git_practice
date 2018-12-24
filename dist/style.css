@@ -4,9 +4,7 @@ p{
 }
 p:hover{
     color: green;
-    /* font-size: 60px;
-    transition: font-size 12s; color: 5s;
-    margin: 0 auto; */
+  
     animation-name: hover-text;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -16,16 +14,20 @@ p:hover{
 @keyframes hover-text{
     25%{
         font-size: 60px;
+        color: aquamarine
 
     }
     50%{
         font-size: 20px;
+        color: blue
  
     }
     75%{
         font-size: 60px;
+        color: #f1c40f
     }
     100%{
         font-size: 20px;
+        color: #2c3e50
     } 
 }
